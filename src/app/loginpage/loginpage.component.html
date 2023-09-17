@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row">
+    <div class="form_bg">
+      <form #loginForm="ngForm" (ngSubmit)="loginpage(loginForm)">
+        <h2 class="text-center">loginpage</h2>
+        <br>
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="First Name" name="firstname" required ngModel>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form- control" placeholder="Last Name" name="lastname" required ngModel>
+          <div class="form-group">
+          </div>
+          <input type="email" class="form-control" id="email" placeholder="Email" name="email" required ngModel>
+        </div>
+        <div class="form-group">
+        </div>
+        <br />
+        <div class="align-center">
+          <button type="submit" class="btn btn-primary" id="login" >login</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
